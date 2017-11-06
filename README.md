@@ -60,6 +60,20 @@
 <time datetime="2017-10-30T07:17:04Z" title="Oct 30, 2017 04:17 PM">18 hours ago</time>
 ```
 
+### 모든 이미지에 `alt` 텍스트를 적용합니다. ([더 읽기](https://moz.com/learn/seo/alt-text))
+
+**Bad**
+
+``` html
+<img src="/IronMan/mark-3.jpg"/>
+```
+
+**Good**
+
+``` html
+<img src="/IronMan/mark-3.jpg" alt="Iron man, mark 3"/>
+```
+
 ## References
 
 - [10 guidelines to improve your web accessibility](https://aerolab.co/blog/web-accessibility/)

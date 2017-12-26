@@ -83,3 +83,4 @@
 
 - [10 guidelines to improve your web accessibility](https://aerolab.co/blog/web-accessibility/)
 - [Using the button role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_button_role)
+- [awesome-a11y](https://github.com/brunopulis/awesome-a11y)

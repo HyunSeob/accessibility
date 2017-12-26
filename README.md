@@ -23,18 +23,23 @@
 <button aria-label="Close" onclick="close()">X</button>
 ```
 
-### 시각 장애인을 위한 접근성 레이블을 위해서 `display: none` 대신, [`aria-label`](https://www.w3.org/TR/WCAG20-TECHS/ARIA14.html)을 사용합니다.
+### 레이블을 숨기는 것 대신 [`aria-label`](https://www.w3.org/TR/WCAG20-TECHS/ARIA14.html)을 사용합니다.
 
 **Bad**
+``` html
+<button onclick="close()">X</button>
+```
+
+**Good**
 
 ``` html
 <button onclick="close()">
   X
-  <span style="display: none;">Close</span>
+  <span style="position: absolute; top: -9999px; left: -9999px;">Close</span>
 </button>
 ```
 
-**Good**
+**Best**
 
 ``` html
 <button aria-label="Close" onclick="close()">X</button>
